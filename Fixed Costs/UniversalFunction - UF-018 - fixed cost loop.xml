@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<BOY_UNIVERSALFUNCTION>
+  <Code>UF-018</Code>
+  <Name>fixed cost loop</Name>
+  <Remarks>Loop through the values looking for fixed costs based on a keyword FIXED - in item description.</Remarks>
+  <Category />
+  <FunctionType>00000009</FunctionType>
+  <LineLoop>
+    <LineLoopConditionType>2</LineLoopConditionType>
+    <LineLoopIgnorLastLine>Y</LineLoopIgnorLastLine>
+    <LineLoopIgnorTextLineAndSubTotal>Y</LineLoopIgnorTextLineAndSubTotal>
+    <LineLoopDirection>1</LineLoopDirection>
+    <LineLoopLineItemUid>37</LineLoopLineItemUid>
+    <LineLoopNoConditionFinalResultType>3</LineLoopNoConditionFinalResultType>
+    <LineLoopNoConditionFinalResultValue />
+    <LineLoopNoConditionFirstPassUf />
+    <LineLoopNoConditionLinePassUf />
+    <LineLoopSqlConditionSql>IF ($[$37.3.0] like '%FIXED -%')BEGINSELECT 'FIXED' FOR BROWSEEND</LineLoopSqlConditionSql>
+    <LineLoopConditionFreezeDurning>Y</LineLoopConditionFreezeDurning>
+    <LineLoopSqlConditionLines>
+      <LineLoopSqlConditionLinesEntry>
+        <LineLoopSqlConditionLinesBreakLoop>N</LineLoopSqlConditionLinesBreakLoop>
+        <LineLoopSqlConditionLinesFinalResultType>3</LineLoopSqlConditionLinesFinalResultType>
+        <LineLoopSqlConditionLinesFinalResultValue />
+        <LineLoopSqlConditionLinesFirstPassUf />
+        <LineLoopSqlConditionLinesLinePassUf>UF-017</LineLoopSqlConditionLinesLinePassUf>
+        <LineLoopSqlConditionLinesResult>FIXED</LineLoopSqlConditionLinesResult>
+      </LineLoopSqlConditionLinesEntry>
+    </LineLoopSqlConditionLines>
+    <LineLoopFinalResultLines>
+      <LineLoopFinalResultLinesEntry>
+        <LineLoopFinalResultLinesCompareType>1</LineLoopFinalResultLinesCompareType>
+        <LineLoopFinalResultLinesCompareValue />
+        <LineLoopFinalResultLinesValueType>1</LineLoopFinalResultLinesValueType>
+        <LineLoopFinalResultLinesCondition>1</LineLoopFinalResultLinesCondition>
+        <LineLoopFinalResultLinesUniversalFunction />
+      </LineLoopFinalResultLinesEntry>
+    </LineLoopFinalResultLines>
+  </LineLoop>
+</BOY_UNIVERSALFUNCTION>

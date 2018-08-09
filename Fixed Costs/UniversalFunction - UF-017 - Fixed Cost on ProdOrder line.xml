@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<BOY_UNIVERSALFUNCTION>
+  <Code>UF-017</Code>
+  <Name>Fixed Cost on ProdOrder line</Name>
+  <Remarks>This changes a planned quantity to a fixed quantity on a production order.</Remarks>
+  <Category />
+  <FunctionType>00000006</FunctionType>
+  <MacroRoot>
+    <MacroMacro>Set($[$37.14.NUMBER]|SQL:SELECT Quantity FROM ITT1 WHERE Father = $[$6.0.0] AND ChildNum = ($[$37.0.NUMBER] - 1) );Focus($[$78.0.0]);</MacroMacro>
+    <MacroDebug>N</MacroDebug>
+  </MacroRoot>
+</BOY_UNIVERSALFUNCTION>

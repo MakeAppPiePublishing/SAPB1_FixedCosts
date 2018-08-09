@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<BOY_B1_VALIDATION_SYSTEM>
+  <Comments>A change in Due date in the production order recalcualtes the Planned qunatity, undoing the fixed cost calulation. This runs the fixed cost adjustment macro over a change in  due date to catch that occurrance.</Comments>
+  <Category />
+  <ConditionAdvancedSql />
+  <ConditionNoConditionUniversalFunction>UF-018</ConditionNoConditionUniversalFunction>
+  <ConditionSimpleColumn />
+  <ConditionSimpleCompareType>1</ConditionSimpleCompareType>
+  <ConditionSimpleItem />
+  <ConditionSimpleUniversalFunction />
+  <ConditionSimpleValue />
+  <ConditionSimpleValueType>0</ConditionSimpleValueType>
+  <ConditionType>2</ConditionType>
+  <Name>Fixed Cost Adjustment - Due Date</Name>
+  <Sort>100</Sort>
+  <TriggerActionSucess>0</TriggerActionSucess>
+  <TriggerBeforeAction>2</TriggerBeforeAction>
+  <TriggerCharPressed>0</TriggerCharPressed>
+  <TriggerCharPressedModifier>0</TriggerCharPressedModifier>
+  <TriggerColumn />
+  <TriggerEvent>10</TriggerEvent>
+  <TriggerFormMode>0</TriggerFormMode>
+  <TriggerFormType>65211</TriggerFormType>
+  <TriggerInnerEvent>0</TriggerInnerEvent>
+  <TriggerItem>26</TriggerItem>
+  <TriggerItemChanged>0</TriggerItemChanged>
+  <TriggerBubbleEvent>0</TriggerBubbleEvent>
+  <TriggerRow>0</TriggerRow>
+  <TriggerMenuUid />
+  <TriggerPreventEventLooping>Y</TriggerPreventEventLooping>
+  <Users />
+  <UserSetting>0</UserSetting>
+  <Active>Y</Active>
+  <ConditionAdvancedResults />
+</BOY_B1_VALIDATION_SYSTEM>
