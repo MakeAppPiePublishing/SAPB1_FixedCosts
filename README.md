@@ -1,7 +1,7 @@
 # SAPB1_FixedCosts
 A Repository of all things SAP B1 Fixed Costs.
 
-Based on my BIZ.one talk *SDL and the Amazing Quest for Fixed costs* </br>
+Based on my BIZ.one talk *SDL and the Amazing Quest for Fixed Costs* </br>
 October 22 2018 in Orlando Florida, 
 
 You can find a video promo for my talk here: https://youtu.be/PU6L2Bhap9A
