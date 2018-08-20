@@ -9,5 +9,5 @@ You can find a video promo for my talk here: https://youtu.be/PU6L2Bhap9A
 You'll find my source code and files for various projects here: 
 <ul>
   <li>the XML export of the Boyum UP Fixed costs solution</li>
-  <li>A copy of the presentation in Keynote and Powerpoint</li>
+  <li>A copy of the presentation in Keynote and Powerpoint(Coming 10/22/18)</li>
 </ul>
